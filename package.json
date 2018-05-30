@@ -1,0 +1,19 @@
+{
+  "name": "rxjs-babel-only-tree-shaking-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-imports": "^1.5.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "rxjs": "^6.2.0"
+  }
+}

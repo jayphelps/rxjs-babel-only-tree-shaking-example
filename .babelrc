@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    ["transform-imports", {
+      "rxjs": {
+        "transform": "../../transform.js",
+        "preventFullImport": true,
+        "skipDefaultConversion": true
+      },
+      "rxjs/operators": {
+        "transform": "rxjs/internal/operators/${member}",
+        "preventFullImport": true,
+        "skipDefaultConversion": true
+      }
+    }]
+  ]
+}
